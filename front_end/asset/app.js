@@ -13,7 +13,7 @@ document.addEventListener('click', function(e) {
 
 
 
-// start: Coversation
+// start: Conversation
 document.querySelectorAll('.conversation-item-dropdown-toggle').forEach(function(item) {
     item.addEventListener('click', function(e) {
         e.preventDefault()
@@ -60,3 +60,12 @@ document.querySelectorAll('.conversation-header-back').forEach(function(item) {
     })
 })
 // end: Conversation
+
+
+
+//links chat-sidebar-menu
+document.querySelectorAll('.chat-sidebar-menu-links').forEach(function(item){
+    item.addEventListener("click", () => {
+        console.log(item)
+    })
+})
