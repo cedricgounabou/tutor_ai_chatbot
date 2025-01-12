@@ -53,12 +53,12 @@ document.addEventListener('click', function(e) {
 })
 
 //Height of input text message
-document.querySelectorAll('.conversation-form-input').forEach(function(item) {
+/*document.querySelectorAll('.conversation-form-input').forEach(function(item) {
     item.addEventListener('input', function() {
         this.rows = this.value.split('\n').length
         console.log(this.rows)
     })
-})
+})*/
 
 //Search the conversation by the message history in the content-sidebar
 document.querySelectorAll('[data-conversation]').forEach(function(item) {
