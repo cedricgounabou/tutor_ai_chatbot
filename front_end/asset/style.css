@@ -183,23 +183,6 @@ body {
     top: 0;
     left: 64px;
 }
-
-.conversation-sidebar-header{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    align-items: center;
-
-}
-
-.conversation-sidebar-status-icon {
-    font-size: 26px;
-    margin-right: 16px;
-    opacity: 0.6;
-    color: #94a3b8;
-}
-
 .content-sidebar-title {
     font-size: 20px;
     font-weight: 600;
@@ -610,24 +593,18 @@ body {
     z-index: 1;
 }
 
-
-
-
-/**********************************************************/
-
 .conversation-form {
-    /* background-color: var(--white); */
+    padding: 8px 16px;
+    background-color: var(--white);
+    display: flex;
+    align-items: flex-end;
 }
-
-/*Modification du champ textarea
 .conversation-form-group {
     width: 100%;
     position: relative;
     margin-left: 16px;
     margin-right: 16px;
 }
-
-
 .conversation-form-input {
     background-color: var(--slate-100);
     border: 1px solid var(--slate-300);
@@ -642,11 +619,11 @@ body {
     line-height: 1.5;
     max-height: calc(20px + ((14px * 2) * 6));
 }
-
 .conversation-form-input:focus {
     border-color: var(--slate-400);
-}*/
+}
 .conversation-form-record {
+    position: absolute;
     bottom: 8px;
     right: 16px;
     font-size: 20px;
@@ -659,7 +636,6 @@ body {
 .conversation-form-record:hover {
     color: var(--slate-600);
 }
-
 .conversation-form-button {
     width: 40px;
     height: 40px;
@@ -683,12 +659,10 @@ body {
     background-color: var(--slate-200);
     color: var(--slate-600);
 }
-
 .conversation-form-submit {
     background-color: var(--emerald-500);
     box-shadow: 0 2px 8px -2px var(--emerald-500);
     color: var(--white);
-    margin-left: 10px;
 }
 .conversation-form-submit:hover {
     background-color: var(--emerald-600);
@@ -698,7 +672,6 @@ body {
     background-color: var(--emerald-700);
     color: var(--white);
 }
-
 .conversation-default {
     align-items: center;
     justify-content: center;
@@ -714,45 +687,6 @@ body {
 }
 /* end: Conversation */
 
-/********************************************************************************************/
-/**Container des element du message**/
-.conversation-form-textarea-group {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px 36px;
-}
-
-/***Champ texte*/
-.conversation-form-textarea-group-message {
-width: 100%;
-}
-
-/*Groupe d'icones*/
-.conversation-form-textarea-group-icons {
-width: 100%;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
-align-content: center;
-justify-content: space-evenly;
-}
-
-/*Position des iconnes par groupe*/
-.conversation-form-textarea-group-icons-start {
-width: 21%;
-height: 7vh;
-}
-.conversation-form-textarea-group-icons-end {
-width: 70%;
-display: flex;
-flex-direction: row;
-flex-wrap: nowrap;
-align-items: center;
-height: 7vh;
-justify-content: flex-end;
-}
 
 
 /***********************************Sidebar close***************************************/
