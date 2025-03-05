@@ -2,19 +2,16 @@
     /* This color palletes from Tailwind CSS */
     --white: #fff;
     --black: #000;
-    
     --slate-50: #f8fafc;
     --slate-100: #f1f5f9;
     --slate-200: #e2e8f0;
     --slate-300: #cbd5e1;
-    --slate-400: #94a3b8;
     --slate-500: #64748b;
     --slate-600: #475569;
     --slate-700: #334155;
     --slate-800: #1e293b;
     --slate-900: #0f172a;
     --slate-950: #020617;
-
     --gray-50: #f9fafb;
     --gray-100: #f3f4f6;
     --gray-200: #e5e7eb;
@@ -26,7 +23,6 @@
     --gray-800: #1f2937;
     --gray-900: #111827;
     --gray-950: #030712;
-
     --zinc-50: #fafafa;
     --zinc-100: #f4f4f5;
     --zinc-200: #e4e4e7;
@@ -38,7 +34,6 @@
     --zinc-800: #27272a;
     --zinc-900: #18181b;
     --zinc-950: #09090b;
-    
     --neutral-50: #fafafa;
     --neutral-100: #f5f5f5;
     --neutral-200: #e5e5e5;
@@ -50,7 +45,6 @@
     --neutral-800: #262626;
     --neutral-900: #171717;
     --neutral-950: #0a0a0a;
-
     --stone-50: #fafaf9;
     --stone-100: #f5f5f4;
     --stone-200: #e7e5e4;
@@ -62,7 +56,6 @@
     --stone-800: #292524;
     --stone-900: #1c1917;
     --stone-950: #0c0a09;
-
     --red-50: #fef2f2;
     --red-100: #fee2e2;
     --red-200: #fecaca;
@@ -74,7 +67,6 @@
     --red-800: #991b1b;
     --red-900: #7f1d1d;
     --red-950: #450a0a;
-
     --orange-50: #fff7ed;
     --orange-100: #ffedd5;
     --orange-200: #fed7aa;
@@ -86,7 +78,6 @@
     --orange-800: #9a3412;
     --orange-900: #7c2d12;
     --orange-950: #431407;
-
     --amber-50: #fffbeb;
     --amber-100: #fef3c7;
     --amber-200: #fde68a;
@@ -98,7 +89,6 @@
     --amber-800: #92400e;
     --amber-900: #78350f;
     --amber-950: #451a03;
-
     --yellow-50: #fefce8;
     --yellow-100: #fef9c3;
     --yellow-200: #fef08a;
@@ -110,7 +100,6 @@
     --yellow-800: #854d0e;
     --yellow-900: #713f12;
     --yellow-950: #422006;
-
     --lime-50: #f7fee7;
     --lime-100: #ecfccb;
     --lime-200: #d9f99d;
@@ -122,7 +111,6 @@
     --lime-800: #3f6212;
     --lime-900: #365314;
     --lime-950: #1a2e05;
-
     --green-50: #f0fdf4;
     --green-100: #dcfce7;
     --green-200: #bbf7d0;
@@ -134,7 +122,6 @@
     --green-800: #166534;
     --green-900: #14532d;
     --green-950: #052e16;
-
     --emerald-50: #ecfdf5;
     --emerald-100: #d1fae5;
     --emerald-200: #a7f3d0;
@@ -146,7 +133,6 @@
     --emerald-800: #065f46;
     --emerald-900: #064e3b;
     --emerald-950: #022c22;
-
     --teal-50: #f0fdfa;
     --teal-100: #ccfbf1;
     --teal-200: #99f6e4;
@@ -158,7 +144,6 @@
     --teal-800: #115e59;
     --teal-900: #134e4a;
     --teal-950: #042f2e;
-
     --cyan-50: #ecfeff;
     --cyan-100: #cffafe;
     --cyan-200: #a5f3fc;
@@ -170,7 +155,6 @@
     --cyan-800: #155e75;
     --cyan-900: #164e63;
     --cyan-950: #083344;
-
     --sky-50: #f0f9ff;
     --sky-100: #e0f2fe;
     --sky-200: #bae6fd;
@@ -182,7 +166,6 @@
     --sky-800: #075985;
     --sky-900: #0c4a6e;
     --sky-950: #082f49;
-    
     --blue-50: #eff6ff;
     --blue-100: #dbeafe;
     --blue-200: #bfdbfe;
@@ -194,7 +177,6 @@
     --blue-800: #1e40af;
     --blue-900: #1e3a8a;
     --blue-950: #172554;
-
     --indigo-50: #eef2ff;
     --indigo-100: #e0e7ff;
     --indigo-200: #c7d2fe;
@@ -206,7 +188,6 @@
     --indigo-800: #3730a3;
     --indigo-900: #312e81;
     --indigo-950: #1e1b4b;
-
     --violet-50: #f5f3ff;
     --violet-100: #ede9fe;
     --violet-200: #ddd6fe;
@@ -218,7 +199,6 @@
     --violet-800: #5b21b6;
     --violet-900: #4c1d95;
     --violet-950: #2e1065;
-
     --purple-50: #faf5ff;
     --purple-100: #f3e8ff;
     --purple-200: #e9d5ff;
@@ -230,7 +210,6 @@
     --purple-800: #6b21a8;
     --purple-900: #581c87;
     --purple-950: #3b0764;
-
     --fuchsia-50: #fdf4ff;
     --fuchsia-100: #fae8ff;
     --fuchsia-200: #f5d0fe;
@@ -242,7 +221,6 @@
     --fuchsia-800: #86198f;
     --fuchsia-900: #701a75;
     --fuchsia-950: #4a044e;
-
     --pink-50: #fdf2f8;
     --pink-100: #fce7f3;
     --pink-200: #fbcfe8;
@@ -254,7 +232,6 @@
     --pink-800: #9d174d;
     --pink-900: #831843;
     --pink-950: #500724;
-
     --rose-50: #fff1f2;
     --rose-100: #ffe4e6;
     --rose-200: #fecdd3;
